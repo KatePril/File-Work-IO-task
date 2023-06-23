@@ -2,8 +2,6 @@ package app.view;
 
 import java.util.Scanner;
 
-import static java.lang.String.format;
-
 public class AppView {
     public int getOption() {
         Scanner scanner = new Scanner(System.in);
