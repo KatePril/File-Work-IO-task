@@ -21,7 +21,7 @@ public class FileReadService {
                 char tmp = (char) i;
                 fileText.append(tmp);
             }
-            return Constants.SUCCESSFUL_OPERATION_MSG + "\n" + fileText.toString() ;
+            return Constants.SUCCESSFUL_OPERATION_MSG + "\n" + fileText;
         } catch (IOException e) {
             return format(Constants.ERROR_OPERATION_MSG, e.getMessage());
         }
